@@ -70,13 +70,16 @@ REAL-ESTATE/
 ```bash
 git clone https://github.com/HariomGundale/Real-Estate.git
 cd Real-Estate
+```
 
 ### 2️⃣ Install Dependencies
+```bash
 npm install
+```
 
 ### 3️⃣ Run Development Server
+```bash
 npm run dev
-
 ```
 
 ##  🧑‍💻 Author
