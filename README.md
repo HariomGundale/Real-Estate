@@ -1,16 +1,84 @@
-# React + Vite
+# 🏠 Real Estate Website (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Real Estate website built using **React + Vite**.  
+This project showcases property listings, navigation sections, testimonials, and a professional UI suitable for real-world real-estate platforms.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+✔ Fully Responsive UI  
+✔ Smooth and Attractive Modern Layout  
+✔ Reusable React Components  
+✔ Home, About, Projects, Contact, Testimonials, Footer Sections  
+✔ Animated UI Sections (Optional)  
+✔ Fast performance powered by Vite  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This is a **frontend-only project** — no backend or database included.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|----------|----------|
+| React.js | UI + Components |
+| Vite | Fast Build & Dev Server |
+| CSS | Styling & Layout |
+| JavaScript (ES6+) | Functionality |
+| Node.js (npm) | Package Management |
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+
+REAL-ESTATE/
+├── node_modules/
+├── public/
+└── src/
+├── assets/ # Images & static files
+├── Components/
+│ ├── About.jsx
+│ ├── Contact.jsx
+│ ├── Footer.jsx
+│ ├── Header.jsx
+│ ├── Navbar.jsx
+│ ├── Projects.jsx
+│ └── Testimonials.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md (you are here)
+└── vite.config.js
+
+```
+
+
+---
+
+## 🏗 Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/HariomGundale/Real-Estate.git
+cd Real-Estate
+
+### 2️⃣ Install Dependencies
+npm install
+
+### 3️⃣ Run Development Server
+npm run dev
+
+```
+
+##  🧑‍💻 Author
+
+Hariom Gundale
